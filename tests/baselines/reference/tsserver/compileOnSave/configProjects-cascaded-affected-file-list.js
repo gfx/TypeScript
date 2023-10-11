@@ -87,13 +87,6 @@ Info seq  [hh:mm:ss:mss] 	Files (5)
 	  Matched by default include pattern '**/*'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 5
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/lib/lib.d.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/b/modulefile1.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/b/file1consumer1.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/b/file1consumer1consumer1.ts:: []
-Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/b/globalfile3.ts:: []
-Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 5 Done: []
 Info seq  [hh:mm:ss:mss] Project '/a/b/tsconfig.json' (Configured)
 Info seq  [hh:mm:ss:mss] 	Files (5)
 
