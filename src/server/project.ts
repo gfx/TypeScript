@@ -1502,6 +1502,7 @@ export abstract class Project implements LanguageServiceHost, ModuleResolutionHo
         unresolvedImports: SortedReadonlyArray<string>,
         newTypings: string[],
     ) {
+        if (!this.getTypeAcquisition().enable) return;
         this.typingsCacheEntry = {
             compilerOptions,
             typeAcquisition,
