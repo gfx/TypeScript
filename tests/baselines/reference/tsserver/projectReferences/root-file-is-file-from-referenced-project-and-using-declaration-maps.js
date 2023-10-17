@@ -356,6 +356,11 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	  Matched by include pattern './**/*' in 'tsconfig.json'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/lib/lib.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/project/src/common/input/keyboard.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/project/src/common/input/keyboard.test.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3 Done: []
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/project/src/common
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/project/src/common/tsconfig.json :: Config file name: /user/username/projects/project/src/tsconfig.json
 Info seq  [hh:mm:ss:mss] Creating configuration project /user/username/projects/project/src/tsconfig.json
@@ -477,6 +482,12 @@ Info seq  [hh:mm:ss:mss] 	Files (4)
 	  Matched by include pattern './**/*' in 'tsconfig.json'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 4
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/lib/lib.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/project/src/common/input/keyboard.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/project/src/terminal.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/project/src/common/input/keyboard.test.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 4 Done: []
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/project/src
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/project/src/tsconfig.json :: No config files found.
 Info seq  [hh:mm:ss:mss] Project '/user/username/projects/project/src/common/tsconfig.json' (Configured)

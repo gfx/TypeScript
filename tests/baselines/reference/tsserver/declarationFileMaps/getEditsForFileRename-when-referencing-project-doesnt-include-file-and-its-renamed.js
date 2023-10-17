@@ -73,6 +73,9 @@ Info seq  [hh:mm:ss:mss] 	Files (1)
 	  Matched by default include pattern '**/*'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 1
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/src/a.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 1 Done: []
 Info seq  [hh:mm:ss:mss] Search path: /a
 Info seq  [hh:mm:ss:mss] For info: /a/tsconfig.json :: No config files found.
 Info seq  [hh:mm:ss:mss] Project '/a/tsconfig.json' (Configured)
@@ -145,6 +148,9 @@ Info seq  [hh:mm:ss:mss] 	Files (1)
 	  Matched by include pattern './src' in 'tsconfig.json'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 1
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /b/src/b.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 1 Done: []
 Info seq  [hh:mm:ss:mss] Search path: /b
 Info seq  [hh:mm:ss:mss] For info: /b/tsconfig.json :: No config files found.
 Info seq  [hh:mm:ss:mss] Project '/a/tsconfig.json' (Configured)

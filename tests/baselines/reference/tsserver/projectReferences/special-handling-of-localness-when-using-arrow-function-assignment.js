@@ -158,6 +158,11 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	  Matched by include pattern 'src' in 'tsconfig.json'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/lib/lib.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/solution/shared/src/index.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/solution/api/src/server.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3 Done: []
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/solution/api
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/solution/api/tsconfig.json :: Config file name: /user/username/projects/solution/tsconfig.json
 Info seq  [hh:mm:ss:mss] Creating configuration project /user/username/projects/solution/tsconfig.json
@@ -246,6 +251,10 @@ Info seq  [hh:mm:ss:mss] 	Files (2)
 	  Matched by include pattern 'src' in 'tsconfig.json'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/lib/lib.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/solution/shared/src/index.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 2 Done: []
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/solution/shared/src
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/solution/shared/src/index.ts :: Config file name: /user/username/projects/solution/shared/tsconfig.json
 Info seq  [hh:mm:ss:mss] Finding references to /user/username/projects/solution/shared/src/index.ts position 13 in project /user/username/projects/solution/shared/tsconfig.json
@@ -296,6 +305,8 @@ Info seq  [hh:mm:ss:mss] Project '/user/username/projects/solution/tsconfig.json
 Info seq  [hh:mm:ss:mss] 	Files (0)
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 0
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 0 Done: []
 Info seq  [hh:mm:ss:mss] Creating configuration project /user/username/projects/solution/app/tsconfig.json
 Info seq  [hh:mm:ss:mss] FileWatcher:: Added:: WatchInfo: /user/username/projects/solution/app/src/app.ts 500 undefined WatchType: Closed Script info
 Info seq  [hh:mm:ss:mss] Starting updateGraphWorker: Project: /user/username/projects/solution/app/tsconfig.json
@@ -323,6 +334,11 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	  Matched by include pattern 'src' in 'tsconfig.json'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/lib/lib.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/solution/shared/src/index.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /user/username/projects/solution/app/src/app.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3 Done: []
 Info seq  [hh:mm:ss:mss] Finding references to /user/username/projects/solution/shared/src/index.ts position 13 in project /user/username/projects/solution/app/tsconfig.json
 Info seq  [hh:mm:ss:mss] Search path: /user/username/projects/solution/shared/src
 Info seq  [hh:mm:ss:mss] For info: /user/username/projects/solution/shared/src/index.ts :: Config file name: /user/username/projects/solution/shared/tsconfig.json

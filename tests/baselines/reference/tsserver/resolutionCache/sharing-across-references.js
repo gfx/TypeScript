@@ -153,6 +153,12 @@ Info seq  [hh:mm:ss:mss] 	Files (4)
 	  Matched by default include pattern '**/*'
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 4
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /users/username/projects/node_modules/modulex/index.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /users/username/projects/app/appa.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /users/username/projects/common/moduleb.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /users/username/projects/app/appb.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 4 Done: []
 Info seq  [hh:mm:ss:mss] Search path: /users/username/projects/app
 Info seq  [hh:mm:ss:mss] For info: /users/username/projects/app/tsconfig.json :: No config files found.
 Info seq  [hh:mm:ss:mss] Project '/users/username/projects/app/tsconfig.json' (Configured)

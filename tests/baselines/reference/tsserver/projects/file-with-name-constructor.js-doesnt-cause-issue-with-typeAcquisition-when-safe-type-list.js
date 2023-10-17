@@ -66,6 +66,11 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	  Root file specified for compilation
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/lib/lib.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/b/f1.js:: ["s"]
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /a/b/constructor.js:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3 Done: ["s"]
 Timeout callback:: count: 0
 Immedidate callback:: count: 0
 

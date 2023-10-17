@@ -66,6 +66,11 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	  Part of 'files' list in tsconfig.json
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /project/a/foo.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /project/shared.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /project/a/index.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3 Done: []
 Info seq  [hh:mm:ss:mss] Project '/project/a/tsconfig.json' (Configured)
 Info seq  [hh:mm:ss:mss] 	Files (3)
 
@@ -112,6 +117,11 @@ Info seq  [hh:mm:ss:mss] 	Files (3)
 	  Part of 'files' list in tsconfig.json
 
 Info seq  [hh:mm:ss:mss] -----------------------------------------------
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /project/b/foo.d.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /project/shared.ts:: []
+Info seq  [hh:mm:ss:mss] New unresolvedImports for /project/b/index.ts:: []
+Info seq  [hh:mm:ss:mss] Calculating unresolved imports list of program:: Files:: 3 Done: []
 Info seq  [hh:mm:ss:mss] Project '/project/a/tsconfig.json' (Configured)
 Info seq  [hh:mm:ss:mss] 	Files (3)
 
