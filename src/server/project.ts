@@ -1330,6 +1330,12 @@ export abstract class Project implements LanguageServiceHost, ModuleResolutionHo
         this.hasAddedOrRemovedSymlinks = true;
     }
 
+    /** @internal */
+    useTypingsFromGlobalCache() {
+        return this.languageServiceEnabled &&
+            this.projectService.serverMode === LanguageServiceMode.Semantic;
+    }
+
     /**
      * Updates set of files that contribute to this project
      * @returns: true if set of files in the project stays the same and false - otherwise.
@@ -1353,7 +1359,7 @@ export abstract class Project implements LanguageServiceHost, ModuleResolutionHo
 
         // update builder only if language service is enabled
         // otherwise tell it to drop its internal state
-        if (this.languageServiceEnabled && this.projectService.serverMode === LanguageServiceMode.Semantic) {
+        if (this.useTypingsFromGlobalCache()) {
             // 1. no changes in structure, no changes in unresolved imports - do nothing
             // 2. no changes in structure, unresolved imports were changed - collect unresolved imports for all files
             // (can reuse cached imports for files that were not changed)
@@ -1373,6 +1379,7 @@ export abstract class Project implements LanguageServiceHost, ModuleResolutionHo
         else {
             this.lastCachedUnresolvedImportsList = undefined;
         }
+        this.projectService.verifyUnresovedImports(this);
 
         const isFirstProgramLoad = this.projectProgramVersion === 0 && hasNewProgram;
         if (hasNewProgram) {
@@ -2220,7 +2227,8 @@ export abstract class Project implements LanguageServiceHost, ModuleResolutionHo
     }
 }
 
-function getUnresolvedImports(
+/** @internal */
+export function getUnresolvedImports(
     program: Program,
     cachedUnresolvedImportsPerFile: Map<Path, readonly string[]>,
     writeLog: (s: string) => void,
