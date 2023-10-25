@@ -95,7 +95,6 @@ describe("unittests:: tsserver:: typeAquisition:: changes", () => {
         typingsInstaller.installer.executePendingCommands();
         host.runQueuedTimeoutCallbacks(); // First project upate after typings are installed
         host.runQueuedTimeoutCallbacks(); // Update scheduled after the typings from unresolved imports are discovered again
-        host.runQueuedTimeoutCallbacks();
         disableTypeAcquisition();
         host.runQueuedTimeoutCallbacks();
         verifyEnabledTypeAcquisition();
@@ -122,7 +121,6 @@ describe("unittests:: tsserver:: typeAquisition:: changes", () => {
         disableTypeAcquisition();
         host.runQueuedTimeoutCallbacks(); // Update project
         typingsInstaller.installer.executePendingCommands();
-        host.runQueuedTimeoutCallbacks();
         verifyEnabledTypeAcquisition();
         baselineTsserverLogs("typeAquisition", "receives update of typings after project changes", session);
     });
@@ -134,8 +132,6 @@ describe("unittests:: tsserver:: typeAquisition:: changes", () => {
         );
         verifyEnabledTypeAcquisition();
         typingsInstaller.installer.executePendingCommands();
-        host.runQueuedTimeoutCallbacks();
-        host.runQueuedTimeoutCallbacks();
         host.runQueuedTimeoutCallbacks();
         baselineTsserverLogs("typeAquisition", "change after enabling typeAquisition", session);
     });
@@ -182,8 +178,6 @@ describe("unittests:: tsserver:: typeAquisition:: changes", () => {
 
         function verifyEnabledTypeAcquisition() {
             typeAcquisition(/*enable*/ true);
-            host.runQueuedTimeoutCallbacks();
-            host.runQueuedTimeoutCallbacks();
             host.runQueuedTimeoutCallbacks();
         }
 

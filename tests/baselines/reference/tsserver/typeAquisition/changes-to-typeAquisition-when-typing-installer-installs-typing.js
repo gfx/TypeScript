@@ -500,10 +500,6 @@ Info seq  [hh:mm:ss:mss] 	FileName: /users/user/projects/project1/app.js Project
 Info seq  [hh:mm:ss:mss] 		Projects: /users/user/projects/project1/jsconfig.json
 After running Timeout callback:: count: 0
 
-Before running Timeout callback:: count: 0
-
-After running Timeout callback:: count: 0
-
 Info seq  [hh:mm:ss:mss] FileWatcher:: Triggered with /users/user/projects/project1/jsconfig.json 1:: WatchInfo: /users/user/projects/project1/jsconfig.json 2000 undefined Project: /users/user/projects/project1/jsconfig.json WatchType: Config file
 Info seq  [hh:mm:ss:mss] Scheduled: /users/user/projects/project1/jsconfig.json
 Info seq  [hh:mm:ss:mss] Scheduled: *ensureProjectForOpenFiles*
@@ -839,11 +835,3 @@ FsWatchesRecursive::
   {}
 /users/user/projects/typings/node_modules: *new*
   {}
-
-Before running Timeout callback:: count: 0
-
-After running Timeout callback:: count: 0
-
-Before running Timeout callback:: count: 0
-
-After running Timeout callback:: count: 0

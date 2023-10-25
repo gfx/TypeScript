@@ -403,19 +403,3 @@ Before running Timeout callback:: count: 1
 
 Info seq  [hh:mm:ss:mss] Running: /users/user/projects/project1/jsconfig.jsonFailedLookupInvalidation
 After running Timeout callback:: count: 0
-
-Before running Timeout callback:: count: 0
-
-After running Timeout callback:: count: 0
-
-Before running Timeout callback:: count: 0
-
-After running Timeout callback:: count: 0
-
-Before running Timeout callback:: count: 0
-
-After running Timeout callback:: count: 0
-
-Before running Timeout callback:: count: 0
-
-After running Timeout callback:: count: 0
